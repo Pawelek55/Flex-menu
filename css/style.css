@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.boxes{
+    display: flex;
+    height: 100vh;    
+    overflow: hidden;
+}
+
+.box{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    display: block;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photoOne{
+    background-image: url(../img/Ja-mniejsza-rozdzielczosc.jpg);
+}
+
+.photoTwo{
+    background-image: url(../img/wallpaper2you_332371.jpg);
+}
+
+.photoThree{
+    background-image: url(../img/wallpaper2you_332377.jpg);
+}
+
+.photoFour{
+    background-image: url(../img/wallpaper2you_332379.jpg);
+}
+
+.photoFive{
+    background-image: url(../img/wallpaper2you_332388.jpg);
+}
+/*.box p,
+.box span{
+        
+}*/
+
+.box p{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    flex: 1 0 auto;
+/*    border: 1px solid red;
+    display: block;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p:nth-child(2){
+    font-size: 80px
+}
+
+
+/*.box:hover{
+    width: 500px;
+}*/
